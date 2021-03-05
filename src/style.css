@@ -1,0 +1,130 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,190,126,1) 50%, rgba(23,145,170,1) 85%);
+    
+  }
+
+
+  .cajita {
+    
+    width: 350px;
+    background: #24303c !important;
+    padding: 50px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+
+.cajita h1 {
+    background: #24303c;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'calibri';
+    text-align: center;
+}
+
+.cajita h3{
+    background: #24303c;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'calibri';
+    text-align: center;
+} 
+
+
+.input {
+    width: 100%;
+    background: #24303c !important;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px  solid #1f53c5 !important;
+    font-family: 'calibri';
+    font-size: 15px;
+    color: white;
+}
+
+.input::placeholder {
+    color:white !important;
+    
+  }
+
+  .input:focus{
+      border-color: #1f53c5 !important;
+      outline: 0 none ;
+  }
+
+  .input[type=number]::-webkit-inner-spin-button, 
+    .input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+    }
+
+.boton {
+  width: 100%;
+  background:#127ba5 !important; 
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin: 16px ;
+  font-size: 16px;
+  font-family: 'calibri';
+  margin-right: -200px;
+  
+}
+
+.boton:hover {
+    width: 100%;
+    background: #1f53c5 !important;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 16px ;
+    font-size: 16px;
+    margin-right: -200px;
+    
+}
+
+.boton:focus{
+    outline: 0 none;
+}
+
+.reloj {
+    background: #24303c;
+    padding: 20px;
+    color:white;
+    justify-items: center;
+}
+
+
+footer{
+    height: 50px; 
+    background:#24303c ; 
+    width:100%; 
+    position:absolute; 
+    bottom:0; 
+    left:0; 
+}
+
+.referencia h5 {
+    background: #24303c !important;
+    font-size: 16px;
+    font-family: 'calibri';
+    text-align:center;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
